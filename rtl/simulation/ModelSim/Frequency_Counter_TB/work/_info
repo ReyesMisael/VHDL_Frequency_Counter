@@ -1,0 +1,202 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Efrequenccy_counter_tb
+Z0 w1726719838
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/simulation/ModelSim/Frequency_Counter_TB
+Z5 8C:\Users\miiza\Documents\VHDL\Pulse_Councidence\sim\Frequency_Counter_Tb.vhd
+Z6 FC:\Users\miiza\Documents\VHDL\Pulse_Councidence\sim\Frequency_Counter_Tb.vhd
+l0
+L5
+V7h=IjPh1Sc:9T7`X2XH4d3
+!s100 h434mfmGc33am^DZL<L>20
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1726719842
+!i10b 1
+Z9 !s108 1726719842.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\miiza\Documents\VHDL\Pulse_Councidence\sim\Frequency_Counter_Tb.vhd|
+Z11 !s107 C:\Users\miiza\Documents\VHDL\Pulse_Councidence\sim\Frequency_Counter_Tb.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Asim
+Z14 DEx4 work 17 frequency_counter 0 22 T6AN>[O7eOE8X84_XLRAW1
+R1
+R2
+R3
+DEx4 work 21 frequenccy_counter_tb 0 22 7h=IjPh1Sc:9T7`X2XH4d3
+l27
+L8
+VkEmP[Tz:bz96mjb?9gj[Q2
+!s100 ^RAWZ@a2Y4kRYJO>zc]X>3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efrequency_counter
+Z15 w1727026454
+R1
+R2
+R3
+R4
+Z16 8C:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\Frequency_Counter.vhd
+Z17 FC:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\Frequency_Counter.vhd
+l0
+L7
+VY1SNgl<27>Zg2mAF0:3eK0
+!s100 Y^;n709TSJ1W3PZX`VK8M1
+R7
+32
+Z18 !s110 1727027245
+!i10b 1
+Z19 !s108 1727027245.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\Frequency_Counter.vhd|
+Z21 !s107 C:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\Frequency_Counter.vhd|
+!i113 1
+R12
+R13
+Artl
+Z22 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z23 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z24 DEx4 work 13 pipo_register 0 22 @]6PXV`eVZj?Ea4?MHF9D3
+Z25 DEx4 work 12 gray_counter 0 22 7>mOB^57CmRfL>8M`Z:>00
+R1
+R2
+R3
+DEx4 work 17 frequency_counter 0 22 Y1SNgl<27>Zg2mAF0:3eK0
+l33
+L26
+VJ1hUCaL@8RdQDeBC1EhB^3
+!s100 FLVT;ckZRE]fWe<KHX?D70
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Egray_counter
+Z26 w1726688761
+R1
+R2
+R3
+R4
+Z27 8C:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\simulation\ModelSim\Frequency_Counter_TB\Gray_Counter.vhd
+Z28 FC:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\simulation\ModelSim\Frequency_Counter_TB\Gray_Counter.vhd
+l0
+L9
+V7>mOB^57CmRfL>8M`Z:>00
+!s100 k08<PBMZbblUUHd@nTQc;2
+R7
+32
+Z29 !s110 1726719834
+!i10b 1
+Z30 !s108 1726719834.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\simulation\ModelSim\Frequency_Counter_TB\Gray_Counter.vhd|
+Z32 !s107 C:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\simulation\ModelSim\Frequency_Counter_TB\Gray_Counter.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R25
+l28
+L26
+VodT;b5fka[X?lIicGL^Pg2
+!s100 @2X4imk>>fHaF4S<PIF7>0
+R7
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Epipo_register
+Z33 w1726685195
+R22
+R23
+R2
+R3
+R4
+Z34 8C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/comp/PIPO_register.vhd
+Z35 FC:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/comp/PIPO_register.vhd
+l0
+L5
+V@]6PXV`eVZj?Ea4?MHF9D3
+!s100 ld1e]bKbY>9FbH`QIldEa2
+R7
+32
+R29
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/comp/PIPO_register.vhd|
+Z37 !s107 C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/comp/PIPO_register.vhd|
+!i113 1
+R12
+R13
+Artl
+R22
+R23
+R2
+R3
+R24
+l18
+L17
+V;SZmeTT07EzSfJ2`K1cEg0
+!s100 z;?>=P?09jN3W[T[cQf7:0
+R7
+32
+R29
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R12
+R13
+Abehavioural
+R22
+R23
+R2
+R3
+R24
+l18
+L17
+ViHCNY<R8;kBgKiOZ?]5dk3
+!s100 CRkPMW@4Cn2V2NWIPb4jH2
+R7
+32
+!s110 1726637165
+!i10b 1
+!s108 1726637165.000000
+R36
+R37
+!i113 1
+R12
+R13
+w1726637161
