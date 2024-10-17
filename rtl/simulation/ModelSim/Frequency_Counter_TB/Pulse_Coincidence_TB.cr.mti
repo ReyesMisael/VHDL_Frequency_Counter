@@ -1,4 +1,4 @@
-C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/simulation/ModelSim/Frequency_Counter_TB/Gray_Counter.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\miiza\Documents\VHDL\Pulse_Councidence\rtl\simulation\ModelSim\Frequency_Counter_TB\Gray_Counter.vhd}
+C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/simulation/ModelSim/Frequency_Counter_TB/Gray_Counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/simulation/ModelSim/Frequency_Counter_TB/Gray_Counter.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -7,7 +7,20 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity gray_counter
 -- Compiling architecture rtl of gray_counter
 
-} {} {}} C:/Users/miiza/Documents/VHDL/Pulse_Councidence/sim/Frequency_Counter_Tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\miiza\Documents\VHDL\Pulse_Councidence\sim\Frequency_Counter_Tb.vhd}
+} {} {}} C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/Frequency_Counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/miiza/Documents/VHDL/Pulse_Councidence/rtl/Frequency_Counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Frequency_Counter
+-- Compiling architecture rtl of Frequency_Counter
+-- Loading entity gray_counter
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity PIPO_Register
+
+} {} {}} C:/Users/miiza/Documents/VHDL/Pulse_Councidence/sim/Frequency_Counter_Tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/miiza/Documents/VHDL/Pulse_Councidence/sim/Frequency_Counter_Tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO

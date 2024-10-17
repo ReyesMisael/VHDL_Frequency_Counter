@@ -1,0 +1,10 @@
+*.zip
+*.wlf
+*.bak
+*.mti
+*.mpf
+*.wlf
+*.qdb
+*.qpg
+*.qtl
+work/
