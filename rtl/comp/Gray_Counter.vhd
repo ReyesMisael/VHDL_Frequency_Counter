@@ -17,7 +17,7 @@ entity gray_counter is
 	(
 		clk		   : in std_logic;
 		reset	   : in std_logic;
-		eneable	   : in std_logic;
+		enable	   : in std_logic;
 		gray_count : out std_logic_vector(WIDTH-1 downto 0)
 	);
 
@@ -31,7 +31,7 @@ begin
 	if (clk = '1' and clk'event) then
 		if (reset = '1') then
  			Currstate <= (others =>'0');
- 		elsif (eneable = '1') then
+ 		elsif (enable = '1') then
 			Currstate <= Nextstate;
  		end if;
 	end if;
