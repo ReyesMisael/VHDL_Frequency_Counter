@@ -8,15 +8,15 @@ entity Frequency_Counter is
     
     generic 
     (
-        WIDTHC	: natural := 8;                            	-- WIDHT vector lenght of each counter
-	C_CODE 	: std_logic :=  '1'				-- set '1' to select gray code; set '0' to select binary code	 
+        WIDTHC	: natural := 8                            		-- WIDHT vector lenght of each counter	 
     );
     port
     (
-        Tx      :	in std_logic;				-- Unknown Square wave unknow signal
-        T0      :	in std_logic;				-- Reference signal     
-        enable :	in std_logic;   
+        Tx      :	in std_logic;					-- Unknown Square wave unknow signal
+        T0      :	in std_logic;					-- Reference signal     
+        enable  :	in std_logic;   
         rst     :	in std_logic;
+	code	:	in std_logic;					-- set '1' to select gray code; set '0' to select binary code
 	pulseClk:	out std_logic;
 	Nx	:	out std_logic_vector(WIDTHC - 1 downto 0);
 	No	:	out std_logic_vector(WIDTHC - 1 downto 0);
@@ -97,7 +97,7 @@ begin
 		n	=> Counter_WIDTH  
 	)
 	port map (
-		sel	=>	C_CODE,				
+		sel	=>	code,				
 		a	=>	N01,			
 		b	=>	N02,
 		z	=>   	S_N0
@@ -108,7 +108,7 @@ begin
 		n	=> Counter_WIDTH  
 	)
 	port map (
-		sel	=>	C_CODE,
+		sel	=>	code,
 		a	=>	NX1,
 		b	=>	NX2,
 		z	=>	S_NX

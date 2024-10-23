@@ -13,7 +13,7 @@ signal T0 : std_logic;
 -- Operational signals 
 signal rst 	: std_logic := '0';
 signal enable 	: std_logic := '0';
-signal ctr_mode	: std_logic := '1';
+signal ctr_mode	: std_logic := '0';
 -- Constans
 Constant Ctr_Size 	: natural := 8;
 constant Tx_period : time := 1 ns;
@@ -33,8 +33,7 @@ enable <= '0', '1' after 1 ns;
 -- Instance device under test
 DUT: entity work.Frequency_Counter(rtl)
 generic map(
-	 WIDTHC => Ctr_Size,
-	 C_CODE => ctr_mode  
+	 WIDTHC => Ctr_Size 
 )
 port map(
 	Tx	=>	Tx,
@@ -68,7 +67,7 @@ stimulus :process
 		wait until enable = '1';
 			report "Start enable";		
 		wait for 10 ns;
-			ctr_mode <= '0';
+			ctr_mode <= '1';
 			report "Change mode";
 		wait;
 	end process;

@@ -33,13 +33,13 @@ enable <= '0', '1' after 1 ns;
 -- Instance device under test
 DUT: entity work.Frequency_Counter(rtl)
 generic map(
-	 WIDTHC => Ctr_Size,
-	 C_CODE => ctr_mode  
+	 WIDTHC => Ctr_Size 
 )
 port map(
 	Tx	=>	Tx,
         T0	=>	T0,
-        enable	=>	enable,	    
+        enable	=>	enable,
+	code	=>	ctr_mode,	    
         rst     =>	rst,
 	Nx	=>	Nx_count,
 	No	=>	No_count,
