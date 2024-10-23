@@ -8,4 +8,6 @@
 *.qpg
 *.qtl
 *.swp
+*.txt
+*.exe
 work/
