@@ -4,7 +4,6 @@
 #include<unistd.h>
 #include<Winbase.h>
 #include<cmath>
-#include"ch2bit.h"
 typedef unsigned int uint;
 typedef unsigned long long int ull;
 uint gen_mask(uint n);
